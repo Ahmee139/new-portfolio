@@ -702,6 +702,22 @@ textarea.field__input:not(:placeholder-shown) + .field__label,
 }
 .footer__bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 28px; border-top: 1px solid var(--line); margin-top: clamp(16px, 2vw, 32px); }
 .footer__clock { font-variant-numeric: tabular-nums; }
+.footer__bottom { align-items: center; column-gap: 32px; }
+
+/* designer credit (bottom-right) */
+.credit { display: inline-flex; align-items: center; gap: 10px; margin-left: auto; }
+.credit__tag { font-family: var(--f-mono); font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+.credit__star { color: var(--accent); font-size: .8rem; display: inline-block; transition: transform .8s var(--ease-out); }
+.credit__name {
+  position: relative; font-family: var(--f-display); font-weight: 700; font-size: 1.02rem;
+  letter-spacing: -.02em; color: var(--ink);
+}
+.credit__name::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 2px; background: var(--accent);
+  transform: scaleX(0); transform-origin: right; transition: transform .5s var(--ease-out);
+}
+.credit:hover .credit__star { transform: rotate(180deg) scale(1.2); }
+.credit:hover .credit__name::after { transform: scaleX(1); transform-origin: left; }
 
 /* floating WhatsApp (mobile) */
 .wa-float {
@@ -793,7 +809,8 @@ textarea.field__input:not(:placeholder-shown) + .field__label,
   .form__submit { width: 100%; justify-content: center; }
   .contact__title { font-size: clamp(2.8rem, 15vw, 5rem); }
   .footer__top { flex-direction: column; align-items: flex-start; }
-  .footer__bottom { flex-direction: column; gap: 8px; padding-bottom: 72px; }
+  .footer__bottom { flex-direction: column; align-items: flex-start; gap: 8px; padding-bottom: 72px; }
+  .credit { margin-left: 0; margin-top: 8px; }
   .wa-float { display: grid; }
 }
 

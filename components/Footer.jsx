@@ -16,8 +16,12 @@ export default function Footer() {
             <p className="footer__word" aria-hidden="true"><span className="footer__word-fill">Sehar Anjum</span></p>
             <div className="footer__bottom">
               <span className="label">© <span data-year>2026</span> Sehar Anjum</span>
-              <span className="label">SEO Executive · Designed &amp; built for search</span>
-              <span className="label footer__clock"><span data-clock-zone>PKT</span> <span data-clock>--:--</span></span>
+              <span className="label footer__clock">SEO Executive · <span data-clock-zone>PKT</span> <span data-clock>--:--</span></span>
+              <p className="credit">
+                <span className="credit__tag">Design &amp; Code</span>
+                <span className="credit__star" aria-hidden="true">✦</span>
+                <span className="credit__name">M. Ahmad Ilyas</span>
+              </p>
             </div>
           </div>
         </footer>

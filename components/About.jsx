@@ -15,7 +15,7 @@ export default function About() {
               <div className="about__grid">
                 <figure className="portrait" data-cursor="HELLO">
                   <div className="portrait__frame">
-                    <img className="portrait__img" src="/assets/img/sehar.webp" alt="Portrait of Sehar Anjum, SEO Executive" width="800" height="1000" loading="lazy" decoding="async" />
+                    <img className="portrait__img" src="/assets/img/portrait.webp" alt="Portrait of Sehar Anjum, SEO Executive" width="800" height="1000" loading="lazy" decoding="async" />
                     <div className="portrait__fallback" aria-hidden="true">
                       <span className="portrait__mono">SA</span>
                       <span className="label">Photo coming soon</span>

@@ -18,7 +18,7 @@ export const metadata = {
     url: '/',
     title: 'Sehar Anjum, SEO Executive',
     description: 'Off-page SEO, link building and on-page SEO that move websites up Google.',
-    images: ['/assets/img/sehar.jpg']
+    images: ['/assets/img/portrait.jpg']
   },
   twitter: { card: 'summary_large_image' },
   icons: { icon: '/assets/icons/favicon.svg' }

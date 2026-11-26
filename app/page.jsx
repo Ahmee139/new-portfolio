@@ -20,7 +20,7 @@ const jsonLd = {
       jobTitle: 'SEO Executive',
       worksFor: { '@type': 'Organization', name: 'Mesh Square' },
       knowsAbout: ['Off-Page SEO', 'On-Page SEO', 'Link Building', 'Guest Posting', 'Blogger Outreach', 'Business Listings'],
-      image: '/assets/img/sehar.jpg',
+      image: '/assets/img/portrait.jpg',
       sameAs: [CONFIG.linkedin]
     },
     {

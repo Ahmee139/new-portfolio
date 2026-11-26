@@ -1,6 +1,6 @@
-# Sehar Anjum, SEO Executive · Portfolio
+# SEO Portfolio
 
-A personal brand and portfolio site for Sehar Anjum: off-page SEO, on-page SEO and link building.
+A personal brand and portfolio website for an SEO specialist: off-page SEO, on-page SEO and link building.
 
 Built with **Next.js 15**, **GSAP + ScrollTrigger** and **Lenis** smooth scrolling. Includes light/dark mode and a fully responsive layout.
 

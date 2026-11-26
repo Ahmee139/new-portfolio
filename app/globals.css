@@ -16,9 +16,9 @@
   --nav-bg: #0E0E10;
   --nav-ink: #F3F3F1;
 
-  --f-display: var(--font-display), "Helvetica Neue", Arial, sans-serif;
-  --f-body: var(--font-body), system-ui, -apple-system, "Segoe UI", sans-serif;
-  --f-mono: var(--font-mono), ui-monospace, Consolas, monospace;
+  --f-display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
 
   --fs-hero: clamp(3.6rem, 11vw, 11rem);
   --fs-h2: clamp(2.6rem, 7vw, 6.5rem);

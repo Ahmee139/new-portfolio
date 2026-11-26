@@ -1,9 +1,7 @@
-import { Familjen_Grotesk, Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 
-const display = Familjen_Grotesk({ subsets: ['latin'], variable: '--font-display', display: 'swap' });
-const body = Inter({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-body', display: 'swap' });
-const mono = JetBrains_Mono({ subsets: ['latin'], weight: ['500'], variable: '--font-mono', display: 'swap' });
+// Fonts load in the browser from Google Fonts (no build-time download, so builds never fail on fonts)
+const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap';
 
 const SITE_URL = 'https://example.com'; // TODO: your domain
 
@@ -36,9 +34,12 @@ const themeInit = `(function(){var d=document.documentElement;d.classList.remove
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`no-js ${display.variable} ${body.variable} ${mono.variable}`} suppressHydrationWarning>
+    <html lang="en" className="no-js" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="stylesheet" href={FONTS_URL} />
       </head>
       <body>{children}</body>
     </html>

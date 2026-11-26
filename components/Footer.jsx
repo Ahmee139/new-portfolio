@@ -18,9 +18,9 @@ export default function Footer() {
               <span className="label">© <span data-year>2026</span> Sehar Anjum</span>
               <span className="label footer__clock">SEO Executive · <span data-clock-zone>PKT</span> <span data-clock>--:--</span></span>
               <p className="credit">
-                <span className="credit__tag">Design &amp; Code</span>
-                <span className="credit__star" aria-hidden="true">✦</span>
+                <span className="credit__tag">Crafted by</span>
                 <span className="credit__name">M. Ahmad Ilyas</span>
+                <span className="credit__star" aria-hidden="true">✦</span>
               </p>
             </div>
           </div>

@@ -705,13 +705,13 @@ textarea.field__input:not(:placeholder-shown) + .field__label,
 .footer__bottom { align-items: center; column-gap: 32px; }
 
 /* designer credit (bottom-right) */
-.credit { display: inline-flex; align-items: center; gap: 10px; margin-left: auto; }
-.credit__tag { font-family: var(--f-mono); font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
-.credit__star { color: var(--accent); font-size: .8rem; display: inline-block; transition: transform .8s var(--ease-out); }
-.credit__name {
-  position: relative; font-family: var(--f-display); font-weight: 700; font-size: 1.02rem;
-  letter-spacing: -.02em; color: var(--ink);
+.credit {
+  display: inline-flex; align-items: baseline; gap: 7px; margin-left: auto;
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif; font-style: italic; line-height: 1;
 }
+.credit__tag { font-size: 1.05rem; color: var(--muted); letter-spacing: .01em; }
+.credit__name { position: relative; font-size: 1.4rem; color: var(--ink); letter-spacing: -.005em; }
+.credit__star { font-style: normal; color: var(--accent); font-size: .75rem; display: inline-block; align-self: center; transition: transform .8s var(--ease-out); }
 .credit__name::after {
   content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 2px; background: var(--accent);
   transform: scaleX(0); transform-origin: right; transition: transform .5s var(--ease-out);

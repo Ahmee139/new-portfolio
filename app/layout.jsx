@@ -1,7 +1,7 @@
 import './globals.css';
 
 // Fonts load in the browser from Google Fonts (no build-time download, so builds never fail on fonts)
-const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap';
+const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Instrument+Serif:ital@0;1&display=swap';
 
 const SITE_URL = 'https://example.com'; // TODO: your domain
 
